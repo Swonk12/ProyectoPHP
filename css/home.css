@@ -1,0 +1,116 @@
+/*home.php*/
+
+html {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+}
+
+header {
+    width: 97%;
+    height: 80px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+}
+
+header > h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+button img {
+    height: auto; /* Mantiene la proporción original de la imagen */
+    background-color: white; /* Fondo blanco para la imagen */
+    padding: 1px; /* Espacio alrededor de la imagen */
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    height: 100vh;
+    
+}
+
+.boton-imagen:hover img {
+    transform: scale(1.1);
+}
+
+.boton-imagen:active img {
+    transform: scale(0.9);
+}
+
+#CTF {
+    width: 800px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #2c2c2e;
+}
+
+#CTF h3:first-of-type {
+    color: black;
+}
+
+#CTF h3:nth-of-type(2) {
+    color: black;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3aa1ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #3aa1ff;
+}
+
+#category {
+    width: 400px;
+    display: block;
+    margin-top: 20px;
+}
+
+#category form {
+    width: 200px;
+}
+
+#category > form label,
+#category > form input,
+#category > form button {
+    float: left; /* Hace que los elementos internos floten a la izquierda */
+}
+
+.Descargar {
+    padding: 10px 20px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3aa1ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+}

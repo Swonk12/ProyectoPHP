@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    height: 100px;
+
+}
+
+header > h1 {
+    float: left;
+    margin: 1%;
+}
+
+nav {
+    float: right;
+    margin: 1%;
+}
+
+#logout {
+    margin: 5%;
+    text-align: center;
+}
+
+#change {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#change a {
+    flex: 1;
+    margin: 30px;
+}
+
+#change button {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    margin: 5px;
+    background-color: #59aeeb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#change button:hover {
+    background-color: #444;
+}
+
+.boton-imagen img {
+    background-color: white;
+    padding: 1px;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.button.logout {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.button.logout span {
+    font-weight: bold;
+}
+
+#info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+h2 {
+    color: #333;
+}
+
+#Avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.info-item {
+    margin: 10px 0;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#CTFCourse {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#CTFCourse:hover {
+    background-color: #444;
+}
