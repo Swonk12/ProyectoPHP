@@ -12,7 +12,7 @@ function CorreoVerificación($email, $user) {
     $mail->Host       = 'smtp.gmail.com'; // Servidor SMTP
     $mail->SMTPAuth   = true; // Habilitar autenticación SMTP
     $mail->Username   = 'pol.ruizm@educem.net'; // Usuario SMTP
-    $mail->Password   = 'vkgx jfgc zaot zizb'; // Contraseña SMTP
+    $mail->Password   = ''; // Contraseña SMTP
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Habilitar encriptación TLS implícita
     $mail->Port       = 465; // Puerto TCP para conexión
 
